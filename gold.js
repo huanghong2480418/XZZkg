@@ -19,7 +19,7 @@ var level = 1;
 var mode;
 var in_shop = false;
 var time_limit;
-var time_all = 30;
+var time_all = 60;
 var total_money = 0;
 var pause_num = 0;
 var pause_time = 0;
@@ -318,7 +318,7 @@ function createLevel(level) {
     switch (level) {
         case 1: {
             bg.style.backgroundImage = "url(img/bg1.jpg)";
-            goal = 200;
+            goal = 700;
             gold_arr.splice(0, gold_arr.length);
             stone_arr.splice(0, stone_arr.length);
             mystery_arr.splice(0, mystery_arr.length);
@@ -358,7 +358,7 @@ function createLevel(level) {
             break;
         case 2: {
             bg.style.backgroundImage = "url(img/bg2.jpg)";
-            goal = 700;
+            goal = 1700;
             gold_arr.splice(0, gold_arr.length);
             stone_arr.splice(0, stone_arr.length);
             mystery_arr.splice(0, mystery_arr.length);
@@ -386,7 +386,7 @@ function createLevel(level) {
             break;
         case 3: {
             bg.style.backgroundImage = "url(img/bg3.jpg)";
-            goal = 1200;
+            goal = 2700;
             gold_arr.splice(0, gold_arr.length);
             stone_arr.splice(0, stone_arr.length);
             mystery_arr.splice(0, mystery_arr.length);
@@ -413,7 +413,7 @@ function createLevel(level) {
             break;
         case 4: {
             bg.style.backgroundImage = "url(img/bg4.jpg)";
-            goal = 1700;
+            goal = 3700;
             gold_arr.splice(0, gold_arr.length);
             stone_arr.splice(0, stone_arr.length);
             mystery_arr.splice(0, mystery_arr.length);
@@ -439,7 +439,7 @@ function createLevel(level) {
             break;
         case 5: {
             bg.style.backgroundImage = "url(img/bg5.jpg)";
-            goal = 2200;
+            goal =4700;
             gold_arr.splice(0, gold_arr.length);
             stone_arr.splice(0, stone_arr.length);
             mystery_arr.splice(0, mystery_arr.length);
@@ -466,7 +466,7 @@ function createLevel(level) {
             break;
         case 6: {
             bg.style.backgroundImage = "url(img/bg6.jpg)";
-            goal = 2700;
+            goal = 5700;
             gold_arr.splice(0, gold_arr.length);
             stone_arr.splice(0, stone_arr.length);
             mystery_arr.splice(0, mystery_arr.length);
@@ -493,7 +493,7 @@ function createLevel(level) {
             break;
         case 7: {
             bg.style.backgroundImage = "url(img/bg7.jpg)";
-            goal = 3200;
+            goal = 6700;
             gold_arr.splice(0, gold_arr.length);
             stone_arr.splice(0, stone_arr.length);
             mystery_arr.splice(0, mystery_arr.length);
@@ -519,7 +519,7 @@ function createLevel(level) {
             break;
         case 8: {
             bg.style.backgroundImage = "url(img/bg8.jpg)";
-            goal = 3700;
+            goal =7700;
             gold_arr.splice(0, gold_arr.length);
             stone_arr.splice(0, stone_arr.length);
             mystery_arr.splice(0, mystery_arr.length);
@@ -545,7 +545,7 @@ function createLevel(level) {
             break;
         case 9: {
             bg.style.backgroundImage = "url(img/bg9.jpg)";
-            goal = 4200;
+            goal = 8700;
             gold_arr.splice(0, gold_arr.length);
             stone_arr.splice(0, stone_arr.length);
             mystery_arr.splice(0, mystery_arr.length);
