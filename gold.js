@@ -83,7 +83,7 @@ function init() {   //初始化函数
     // gameBoard.style.left = ((window.innerWidth - 720) / 2).toString() + 'px';
     // gameBoard.style.top = ((window.innerHeight - 510) / 2).toString() + 'px';
     intro.play();
-    time_all = 30;
+    time_all = 60;
     players.splice(0, players.length);
     key_W.style.display = "none";
     key_S.style.display = "none";
@@ -1287,7 +1287,7 @@ function enterShop() {//商店
     }
     nextLevel.onclick = function () {
         cursor.play();
-        time_all = 30;
+        time_all = 60;
         mapCanvas.style.display = 'block';
         key_W.style.display = 'block';
         key_S.style.display = 'block';
