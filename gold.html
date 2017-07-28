@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>黄鸡矿工</title>
+    <link rel="stylesheet" type="text/css" href="gold.css" />
+
+</head>
+
+<body>
+    <div id='body'>
+        <div id = "bg" style="position:absolute;z-index:-1;">
+       <!--  <img src="img/open.jpg" width="100%" height="100%" /> -->
+        </div>
+        <div id='gameBoard' class='gameBoard'>
+            <div id='gameWords' class='gameWords' style="display: none; opacity: 0; font-size: 200%;">
+            </div>
+
+            <div id='name' class='name' style='display: none'>
+                <h3>黄鸡矿工</h3>
+            </div>
+
+            <div id='gameStart' class='buttons' style='display: none'>
+                开 始
+            </div>
+
+            <div id='gameHelp' class='buttons' style='display: none'>
+                帮 助
+            </div>
+
+            <div id='gameAbout' class='buttons' style='display: none'>
+                关 于
+            </div>
+
+            <div id='gameQuit' class='buttons' style='display: none'>
+                关 闭
+            </div>
+            <canvas id='mapCanvas' class='map' style='display: none; opacity: 0;'></canvas>
+            <div id="key_W" class ="virtual_key">
+                </div>
+            <div id="key_S" class ="virtual_key">
+                </div>
+            <div id="key_up" class ="virtual_key">
+                </div>
+            <div id="key_down" class ="virtual_key">
+                </div>
+            <div id="exit_level" class ="virtual_key">
+                Exit<br>Level
+                </div>
+            <div id="pause" class ="virtual_key">
+                ‖
+                </div>
+            <div id="pause_animation" class="animation">
+                PAUSE
+                </div>
+            <div id='gameInformation' class='gameLines' style='display: none; top: -100px'>
+            </div>
+            <div id='gameLines' class='gameLines' style='display: none; bottom: 130px;'>
+            </div>
+
+            <div id='singleMode' class='buttons' style='display: none'>
+                单人模式
+            </div>
+
+            <div id='pairMode' class='buttons' style='display: none'>
+                双人模式
+            </div>
+            <div id="shopName"style="display:none;">道具商店</div>
+       
+            <div id="enhanceStrength" class="tool">
+                <img src="img/strengthMed.png" alt="力量药水"width ="100" height="100">
+            </div>
+            <div id="enhancePrice" class="price">
+            </div>
+            
+            <div id="fourLeaf" class="tool">
+                <img src="img/fourLeaf.png" alt="四叶草"width ="100" height="100">
+            </div>
+            <div id="leafPrice" class="price">
+            </div>
+          
+            <div id='addStoneValue' class="tool">
+                <img src="img/stoneBook.png" alt="石头藏书" width ="100" height="100">
+            </div>
+            <div id="stonePrice" class="price">
+            </div>
+          
+            <div id="addDiamondValue" class="tool" >
+                <img src="img/diamondMed.png" alt="钻石药水" width ="100" height="100">
+            </div>
+            <div id="diamondPrice" class="price">
+            </div>
+        
+            <div id="bom" class="tool" >
+                <img src="img/bomb.png" alt="炸弹" width ="100" height="100">
+            </div>
+            <div id="bomPrice" class="price">
+            </div>
+          
+            <div id="shopLine" style="display:none">
+            </div>
+            <div id='money'></div>
+            <div id='nextLevel'>下一关</div>
+
+            <div id="gameLoseBoard" style="display:none">
+            <div id="gameLose" style="display:none">
+               你的分数没有达到目标分
+                </div>
+            <div id="score" style="display:none">
+                </div>
+            <div id="restart" class="buttons" style="display:none">
+                Restart
+                </div>
+             </div>   
+        </div>
+    </div>
+
+    <audio id = 'BGM' src="sound/BGM.mp3" loop="loop"/>
+    <audio id = 'intro' src="sound/intro.mp3"/>
+    <audio id = 'drag' src="sound/drag.mp3"/>
+    <audio id = 'death' src="sound/death.mp3"/>
+    <audio id = 'explode' src="sound/explode.mp3"/>
+    <audio id = 'cursor' src="sound/Cursor2.ogg"/>
+    <script src="gold.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
