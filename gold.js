@@ -118,7 +118,7 @@ function init() {   //初始化函数
     gameWords.style.lineHeight = '450px';
     gameWords.style.fontSize = 70;
     gameWords.style.color = "#472226";
-    gameWords.innerHTML = '<h2>欢迎进入黄鸡矿工的世界</h2>';
+    gameWords.innerHTML = '<h2>欢迎进入赵孜矿工的世界</h2>';
     gameWords.style.display = 'block';
     setTimeout('openWords()', 1000);     //开场文字
 }
@@ -203,7 +203,7 @@ pairMode.onclick = function () {
 gameHelp.onclick = function () {
     var name = document.getElementById('name');
     gameWords.style.lineHeight = '60px';
-    gameWords.innerHTML = '<br>帮助<br><br>单人模式：上/W键炸弹，下/S键钩取 <br> 双人模式：左边上键炸弹，下键钩取; 右边W键炸弹，S键钩取<br><br><br><div id = "back" style = "position: relative; ">返回</div>';
+    gameWords.innerHTML = '<br>帮助<br><br>单人模式：上/W键炸弹，下/S键钩取 <br> 双人模式：左边上键炸弹，下键钩取; 右边W键炸弹，S键钩取<br><br>温馨提示：手机可以点击左上角四个按钮<br><div id = "back" style = "position: relative; ">返回</div>';
     gameWords.style.display = 'block';
     gameWords.style.opacity = 1;
     name.style.display = 'none';
@@ -220,7 +220,7 @@ gameHelp.onclick = function () {
     gameBack.onmouseleave = leaveFrom;
 }
 gameAbout.onclick = function () {
-    gameWords.innerHTML = '<br>关于<br><br>这是一个效仿黄金矿工的小游戏，欢迎试玩后提供反馈意见。<br>打赏请联系wjc，有bug请联系joy。<br><br><br><div id = "back" style = "position: relative;">返回</div>';
+    gameWords.innerHTML = '<br>关于<br><br>这是一个效仿黄鸡矿工的小游戏，欢迎试玩后提供反馈意见。<br>欢迎访问huanghong2480418.github.io<br><br><br><div id = "back" style = "position: relative;">返回</div>';
     var name = document.getElementById('name');
     gameWords.style.lineHeight = '60px';
     gameWords.style.display = 'block';
@@ -1206,7 +1206,7 @@ function enterShop() {//商店
     shopLine.style.opacity = 1;
     money.innerHTML = "当前财富为：$ " + total_money;
     addStoneValue.onmouseover = function () {
-        shopLine.innerHTML = "石头藏书：增加石头价值";
+        shopLine.innerHTML = "夏源笔记本：有增加石头价值的配方";
     }
     addStoneValue.onmouseout = function () {
         shopLine.innerHTML = "";
@@ -1218,7 +1218,7 @@ function enterShop() {//商店
         shopLine.innerHTML = "";
     }
     bom.onmouseover = function () {
-        shopLine.innerHTML = "炸弹：可炸掉已抓取物品";
+        shopLine.innerHTML = "夏源炸弹：蹦蹦炸弹～可炸掉已抓取物品";
     }
     bom.onmouseout = function () {
         shopLine.innerHTML = "";
