@@ -1212,25 +1212,25 @@ function enterShop() {//商店
         shopLine.innerHTML = "";
     }
     addDiamondValue.onmouseover = function () {
-        shopLine.innerHTML = "钻石药水：增加钻石价值";
+        shopLine.innerHTML = "钻石药水：夏源的传家宝可以增加钻石价值";
     }
     addDiamondValue.onmouseout = function () {
         shopLine.innerHTML = "";
     }
     bom.onmouseover = function () {
-        shopLine.innerHTML = "夏源炸弹：蹦蹦炸弹～可炸掉已抓取物品";
+        shopLine.innerHTML = "夏源炸弹：蹦蹦炸弹可炸掉已抓取物品比如石头";
     }
     bom.onmouseout = function () {
         shopLine.innerHTML = "";
     }
     enhanceStrength.onmouseover = function () {
-        shopLine.innerHTML = "力量药水：抓取物品速度变快";
+        shopLine.innerHTML = "力量药水：你会获得八块腹肌有夏源那样强壮";
     }
     enhanceStrength.onmouseout = function () {
         shopLine.innerHTML = "";
     }
     fourLeaf.onmouseover = function () {
-        shopLine.innerHTML = "四叶草：增加问号袋幸运值";
+        shopLine.innerHTML = "夏源草：你会和兔子一样幸运对问号袋有用";
     }
     fourLeaf.onmouseout = function () {
         shopLine.innerHTML = "";
